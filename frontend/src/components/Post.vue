@@ -17,7 +17,7 @@
         <div class="card-body">
           <div class="card-title">
             <h4>Comments:</h4>
-              <div v-for="comments in postById.commentsList">
+              <div v-for="comments in postById.commentsList" :key="comments.id">
                 {{comments.body}}
                 <footer class="badge">
                   <span class="badge badge-secondary">by {{comments.name}}</span>

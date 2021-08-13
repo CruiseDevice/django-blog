@@ -15,7 +15,7 @@ const actions = {
   fetchblogs(state) {
     axios({
       method: 'get',
-      url: 'http://127.0.0.1:8000/api/',
+      url: 'http://127.0.0.1:8000/api/posts/',
       headers: {
           'Content-Type': 'application/json'
       }
