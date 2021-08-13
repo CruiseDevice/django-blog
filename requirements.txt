@@ -2,3 +2,4 @@ Django
 Pillow
 django-cors-headers
 djangorestframework
+djangorestframework-simplejwt==4.4.0
